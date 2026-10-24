@@ -1,0 +1,5 @@
+開発用Windows環境: Python 3.12.14 / NumPy 2.5.3 / SciPy 1.18.1 / PyInstaller 6.22.3 / Tcl-Tk 8.6.12。
+ソースからの通常起動・テストはREADMEを参照してください。
+Windows実行形式を再作成する場合は分離したPython環境を使い、PyInstallerのonedir/windowed構成を使用します。
+依存を更新した場合は実際の同梱物のライセンスを収集し直してください。現在のWindows ZIPに含むライセンス群を無条件に別ビルドへ流用しないでください。
+公開済みの商用アプリやそのSDKからDLLを取得して追加する必要はありません。

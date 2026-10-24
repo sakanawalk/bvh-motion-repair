@@ -1,0 +1,9 @@
+{
+  "profile": "humanoid-xarm-yup-cm-120fps",
+  "pelvis_snap_frames": [],
+  "glitch_frames": [],
+  "manual_bridges": [],
+  "arm_chain_bridges": [],
+  "pole_sigma_samples": 6.0,
+  "knee_straighten_degrees": 8.0
+}

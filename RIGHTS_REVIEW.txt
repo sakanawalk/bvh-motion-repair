@@ -1,0 +1,44 @@
+権利・来歴 再確認記録 2026-10-23
+対象: モーション修正ツール 0.2.0 / BVH → MMD Bridge 0.3.0-rc1
+
+結論
+確認対象のソース、抽出スクリプト、制作時の保存ツール履歴では、MotionBuilder等の商用ソフトを逆コンパイル・逆アセンブルして実装を取得した証拠は見つかりませんでした。
+配布実装はPython、NumPy、SciPyと標準ライブラリを使用しています。MotionBuilder、FBX SDK、MMD、Blender、mmd_toolsは配布依存物に含みません。
+これは調べた記録の範囲での所見です。全開発期間の完全な操作記録、外部コードとの網羅的類似照合、第三者との契約、権利帰属の法的保証までは含みません。
+
+確認方法と根拠
+・修正ツール: 制作系のmotion_cleanup_v2.pyから関数を抽出し、入出力を一般化したビルド記録と抽出元SHA-256を照合。ASTの読み書きは手元のPythonソースを加工するもので、実行形式の逆コンパイルではありません。
+・Bridge: core.py / contact.py / jobs.py / app.pyとその生成・更新のツール履歴を確認。PMXのフィールド読込、VMDの書出し、座標変換、二関節IKは配布ソース内で実装されています。PMXモデルの骨や頂点を読む処理は、ソフトウェア実行形式を逆コンパイルする処理とは異なります。
+・MotionBuilder比較スクリプト: 公開pyfbsdkのFileImport、Evaluate、テイク操作等。公開APIによる作品の入出力・評価を確認。商用プログラムの命令列やプロセスメモリを取得するコードは対象実装に見つかりませんでした。
+・保存された主要制作チャット2件のツール呼出し計372件を確認。逆コンパイル/逆アセンブル関連語および代表的な解析ツール名の該当は0件。補助レビュー2件には実行ツール履歴がありませんでした。キーワード検索だけに依拠せず、生成パッチ、依存、公開API呼出しも確認しています。
+・Bridge制作時にはmmd_toolsの機能説明をWeb検索した記録があります。その事実は除外していません。確認履歴には実装ソースの取得・転載やライブラリへのリンクはありませんでした。より古い参照スクリプトの全制作履歴は復元できていません。
+・実行時ネイティブライブラリ172ファイルは、既存の修正ツール同梱物とすべてSHA-256一致。Bridgeの不足していたライセンス文書を同一配布物の対応文書から補完しました。SciPy内部コンポーネントの文書も両方に保持しました。
+
+ライセンスの整理
+本体は独自利用条件（LICENSE）です。無料利用可・無断再配布／販売禁止。作成した動画・モーションの公開・配布・商用利用は可能です（入力素材の規約は別途適用）。第三者ライブラリには各ライセンスが適用されます。著作権表示は2026 sakanawalk。AI支援で生成したコードが含まれるため、表示だけで著作権の成立や第三者権利の不存在を証明するものではありません。
+2026-10-24 r3: 本体の配布条件をsakanawalk Software License 1.0へ更新しました。処理プログラムと実行ファイルはr2と同一です。過去にMITで許諾済みの版・部分の権利は遡及して取り消しません。詳細はLICENSEまたはLICENSE.txtを参照してください。
+Python/NumPy/SciPy/Tcl/Tk/OpenSSL/libffi/cffi等は各原文に従います。本体の独自利用条件で第三者部分を再許諾する扱いにはしていません。
+NumPy/SciPyの同梱バイナリにはBLAS/LAPACK/GCC runtime等も含まれます。GCC runtime exceptionとPyInstaller bootloader exceptionを含む原文を保持しています。ライセンス文書を省いてexeだけ再配布しないでください。
+Microsoft runtimeの追加条件はPython-Windows-LICENSE.txtに保持。Windows向けの構成です。
+
+公開用ファイルの境界
+制作モーション、モデル、楽曲、動画、FBX、MMD本体、Autodesk SDK、開発チャット、生ログ、個人パス付き設定は配布対象外。
+ソースは許可リストから構成。サンプルは既存の数式生成BVHのみ。Bridgeのテスト用PMXはテスト中に生成する合成骨格です。
+他社モデルの確認画像は販売ページ用素材に流用しません。ユーザーの入力・出力素材の利用権は本体ライセンスから発生しません。
+r2は画面文言と説明書を公開実験版向けに改訂し、実行ファイルを再ビルドした版です。数値処理のソースは前版と同一です。
+Bridgeは1モデル・1テイクの既存確認に限られ、別PC・別モデルの確認は未実施。公開する場合は実験版/プレリリースとして説明してください。汎用正式版としての品質認定はしていません。
+
+参照した一次資料（2026-10-23）
+Autodesk General Terms: https://www.autodesk.com/termsofservice
+Autodesk Acceptable Use: https://www.autodesk.com/company/terms-of-use/en/acceptable-use
+上記には逆解析だけでなく製品機能の複製に関する制限もあります。「逆コンパイルしていない」だけで全契約適合を断定しません。今回確認した範囲では作品の読込・比較と、独立した数値処理の実装です。
+公開Python API: https://help.autodesk.com/cloudhelp/2023/ENU/MotionBuilder-SDK/Getting-Started/Using-Python-with-MotionBuilder.html
+MIT: https://opensource.org/license/mit
+Python: https://docs.python.org/3/license.html
+NumPy: https://numpy.org/doc/stable/license.html
+SciPy: https://github.com/scipy/scipy/blob/main/LICENSE.txt
+PyInstaller 6.22.3: https://raw.githubusercontent.com/pyinstaller/pyinstaller/v6.22.3/COPYING.txt
+GitHub: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+BOOTH: https://booth.pm/guidelines
+
+詳細なローカル出典・パス・ハッシュ・履歴抜粋は配布物と分離して保存しています。

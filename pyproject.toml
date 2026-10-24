@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bvh-motion-repair"
+version = "0.2.0"
+description = "Experimental BVH motion anomaly detection and repair for a constrained humanoid profile"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "LicenseRef-sakanawalk-FreeUse-NoRedistribution"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "sakanawalk"}]
+dependencies = ["numpy>=2.2,<3", "scipy>=1.15,<2"]
+
+[project.scripts]
+bvh-repair = "motion_repair.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["motion_repair*"]
+
+[tool.setuptools.package-data]
+motion_repair = ["*.json"]

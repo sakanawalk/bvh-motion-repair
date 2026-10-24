@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-24",
+  "revision": "r3",
+  "license": "LicenseRef-sakanawalk-FreeUse-NoRedistribution",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 106,
+      "sha256": "97b29e8ffc196dce3b80babb4871af5c077b53e36cbbf3ea062a30b3ef3e6d17"
+    },
+    {
+      "path": "BUILD.txt",
+      "bytes": 653,
+      "sha256": "f3b4380bb3f609142f5b2904d4fef4f4ec1cbbc3366ead13eb3a2dd084e24156"
+    },
+    {
+      "path": "docs/ALGORITHM.md",
+      "bytes": 2256,
+      "sha256": "c66f69c1b362f6196ea2991ab449a5a9749ab5ca657260a8d30beb9ae0908085"
+    },
+    {
+      "path": "docs/DESKTOP_LICENSE_AUDIT.md",
+      "bytes": 2519,
+      "sha256": "b58b1c297c58ed89c7c0e54b986d0ba6a3fc7331003e87bfd91b85440bbdda0b"
+    },
+    {
+      "path": "docs/LICENSE_AUDIT.md",
+      "bytes": 3217,
+      "sha256": "3f6db84000cc69aeab2a1429e0ef15ea40feff8b9ad3f7c9b12c7306a532b7a0"
+    },
+    {
+      "path": "docs/PROFILE.md",
+      "bytes": 2269,
+      "sha256": "a752ca8e881fb4575fa175f03ee1ed6ea8cf8e6c0a721798b026319ee883f367"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1321,
+      "sha256": "4fc4a15967d8a7f50468219e1a401df7fbda995db15520ac4bf99700d8ac6ec7"
+    },
+    {
+      "path": "examples/make_sample.py",
+      "bytes": 2512,
+      "sha256": "f6b2336e99d646dc0a5e26276dbd0849027ba7985bcd71879fba0c524981b1b8"
+    },
+    {
+      "path": "guide.html",
+      "bytes": 5517,
+      "sha256": "b9ff2e68ed54bbea866d5720cd072f1362833ee6ab7405fb41a273978735dec7"
+    },
+    {
+      "path": "launch_desktop.py",
+      "bytes": 82,
+      "sha256": "07a1bcb30eb4dff1c4af5c76560efcac4ba317a67bf71a7903fcfae17e1b9094"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 3414,
+      "sha256": "19f49b47a77163d7afa7f1b2ecee0d531f98c059c1ed85560c3149879ce0985d"
+    },
+    {
+      "path": "LICENSE_CHANGE.txt",
+      "bytes": 311,
+      "sha256": "ee5a9bcd5c15435f8d97f1361d6c27d20a5f7e1ca3faf73e33798d9527f365c3"
+    },
+    {
+      "path": "licenses/NumPy.txt",
+      "bytes": 1573,
+      "sha256": "5b76d36901cc7891bae1ee728c777745e9e0e5d7cb61a13bf2d0596a06c7cf6d"
+    },
+    {
+      "path": "licenses/SciPy.txt",
+      "bytes": 1561,
+      "sha256": "442c6596bcfd6c1a9d9a5a8492a58a7d7cd8c78f3c8fcef92e6ff4a6ab51f2b8"
+    },
+    {
+      "path": "motion_repair/__init__.py",
+      "bytes": 23,
+      "sha256": "d03eacad88bd7a33d49f0a635660e8241fa832e06a3d288fe742cf46833c1b42"
+    },
+    {
+      "path": "motion_repair/__main__.py",
+      "bytes": 49,
+      "sha256": "8134dc71036ab6fef7cb605ec59b400b2864890fc00526f9763c447e2937e295"
+    },
+    {
+      "path": "motion_repair/cli.py",
+      "bytes": 8931,
+      "sha256": "892f77aebfb0650bdbfe0b925912b89059777262d84c4e5c9f607f861b549c86"
+    },
+    {
+      "path": "motion_repair/desktop.py",
+      "bytes": 14221,
+      "sha256": "f5968179977256cf9a6f0fea4122f8b910a9905589895b0a98429f34c68b7fb5"
+    },
+    {
+      "path": "motion_repair/engine.py",
+      "bytes": 33496,
+      "sha256": "760cf389e33f90b5aa50a166c70bab3bfd17dfb5b288b231283fa0a502a83fe3"
+    },
+    {
+      "path": "motion_repair/preview.py",
+      "bytes": 4373,
+      "sha256": "73dd81efd574f5b7e73f677cd3faaa722bb44095101ed26502436ab23bf5566e"
+    },
+    {
+      "path": "motion_repair/profile.json",
+      "bytes": 212,
+      "sha256": "3d0f24ff6d9bed7a975ad8329fb779200e1e7d7eaa2ebf2a8d4cd991fde7cb30"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 680,
+      "sha256": "875ffb4b44a2525cfcee5013c443a4c11e75507dc37ca277bea50e91aa387d74"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2656,
+      "sha256": "89263a87ca92f5270abc853734a5482d2255036d75af9cf20d6059c525c5e430"
+    },
+    {
+      "path": "RIGHTS_REVIEW.txt",
+      "bytes": 6348,
+      "sha256": "0c47776bd1d2d995240d0e6f271bafb521fd83aa515f40b8fbab0366ba8394fb"
+    },
+    {
+      "path": "sample/sample.bvh",
+      "bytes": 394581,
+      "sha256": "8aea908e35b54f8cdc6843fa3aed37c61669749363d1dfbdaefb6a21eb9c7c33"
+    },
+    {
+      "path": "tests/test_repair.py",
+      "bytes": 3651,
+      "sha256": "8f8b935b5524a6d0426b3b7c554a747bef440bc8f5f01bc32c8ab33f147c212d"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 682,
+      "sha256": "c9fb6203c6a9db4a1c8bfa8e07feee27ef0e9e007382474d490923b527a1f40f"
+    },
+    {
+      "path": "利用条件.txt",
+      "bytes": 3414,
+      "sha256": "19f49b47a77163d7afa7f1b2ecee0d531f98c059c1ed85560c3149879ce0985d"
+    },
+    {
+      "path": "対応プロファイル.txt",
+      "bytes": 2269,
+      "sha256": "a752ca8e881fb4575fa175f03ee1ed6ea8cf8e6c0a721798b026319ee883f367"
+    }
+  ]
+}
