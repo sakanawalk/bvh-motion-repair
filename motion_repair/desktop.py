@@ -52,7 +52,7 @@ class App:
         self.destination=tk.StringVar(value=str(self.output_parent))
         self.confirmed=tk.BooleanVar(value=False)
         self.elapsed=tk.StringVar(value='')
-        root.title('モーション修正ツール | 0.2.0 r5');root.geometry(f'860x{min(760,max(600,root.winfo_screenheight()-110))}');root.minsize(800,600)
+        root.title('モーション修正ツール | 0.2.0 r6');root.geometry(f'860x{min(760,max(600,root.winfo_screenheight()-110))}');root.minsize(800,600)
         root.configure(bg='#f4f6fa')
         style=ttk.Style();style.theme_use('clam')
         style.configure('.',font=('Yu Gothic UI',11))

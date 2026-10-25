@@ -1,5 +1,5 @@
 {
-  "revision": "r5",
+  "revision": "r6",
   "files": [
     {
       "path": ".gitignore",
@@ -23,8 +23,8 @@
     },
     {
       "path": "docs/LICENSE_AUDIT.md",
-      "sha256": "2228affe7eabfcfeafe8b3372f15db126d2969d13381515192e352a2004d5e4f",
-      "bytes": 3223
+      "sha256": "2cec6f188255fd0c1a31069a596ba0d1e7c76aa5df245f07886b15f58f606595",
+      "bytes": 3289
     },
     {
       "path": "docs/PROFILE.md",
@@ -53,8 +53,8 @@
     },
     {
       "path": "LICENSE",
-      "sha256": "425817f7170cd98277a5cd8010984f70a17020ca6981aadb8087e98e79e5678b",
-      "bytes": 3417
+      "sha256": "83df448e5e59fe798ad91e44e434e0564ca204a4e0a1f682bbab0fd1ff37df02",
+      "bytes": 3406
     },
     {
       "path": "LICENSE_CHANGE.txt",
@@ -83,23 +83,23 @@
     },
     {
       "path": "motion_repair/cli.py",
-      "sha256": "892f77aebfb0650bdbfe0b925912b89059777262d84c4e5c9f607f861b549c86",
-      "bytes": 8931
+      "sha256": "6dda52d99f7e1d5dd7cf2322934f2d3c9bdcf9f0a73675db0d114e38a2d3b656",
+      "bytes": 8944
     },
     {
       "path": "motion_repair/desktop.py",
-      "sha256": "5dd001c28f8d556a31d138f411749e84102506262e308dd7e218c0a347bc048e",
+      "sha256": "3455da299af72ed0e8c2f9bb01e9891f222706b9b2cdd40ef1050d6998ded7d3",
       "bytes": 14205
     },
     {
       "path": "motion_repair/engine.py",
-      "sha256": "760cf389e33f90b5aa50a166c70bab3bfd17dfb5b288b231283fa0a502a83fe3",
-      "bytes": 33496
+      "sha256": "ba2e499dddbf586b87df273bbf41a5271639f0afd1999ac6dfc9dbdae824202e",
+      "bytes": 33721
     },
     {
       "path": "motion_repair/preview.py",
-      "sha256": "73dd81efd574f5b7e73f677cd3faaa722bb44095101ed26502436ab23bf5566e",
-      "bytes": 4373
+      "sha256": "e8931bf785448791152c2e984067a5b69031474df0586a16cf5d36ad2656ec4a",
+      "bytes": 4453
     },
     {
       "path": "motion_repair/profile.json",
@@ -113,13 +113,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "d0f046070d06a51695b23c913d748ff70b11f42da24019d561a7c637dc158d36",
-      "bytes": 2847
+      "sha256": "d3e1b9275c3516185b6dbce005fd02f69051a97785c9c93dbc37204bb92cb1fd",
+      "bytes": 3100
     },
     {
       "path": "RIGHTS_REVIEW.txt",
-      "sha256": "355d07dd5d62676cae324ee94665f390dde0e5c4827d4fe62858d37e907656e2",
-      "bytes": 6354
+      "sha256": "a82ba3743a456728e0219c7fa8ce46a07a41f6ff92961cfd1e4d9e270a7d5a7d",
+      "bytes": 6650
     },
     {
       "path": "sample/sample.bvh",
@@ -128,8 +128,8 @@
     },
     {
       "path": "tests/test_repair.py",
-      "sha256": "8f8b935b5524a6d0426b3b7c554a747bef440bc8f5f01bc32c8ab33f147c212d",
-      "bytes": 3651
+      "sha256": "9dd6fe3dfa74535917e69a02f8fcb487505454d64404629023b3d79f1bfc9df7",
+      "bytes": 4655
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -138,8 +138,8 @@
     },
     {
       "path": "利用条件.txt",
-      "sha256": "425817f7170cd98277a5cd8010984f70a17020ca6981aadb8087e98e79e5678b",
-      "bytes": 3417
+      "sha256": "83df448e5e59fe798ad91e44e434e0564ca204a4e0a1f682bbab0fd1ff37df02",
+      "bytes": 3406
     },
     {
       "path": "対応プロファイル.txt",

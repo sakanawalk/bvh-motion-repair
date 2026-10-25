@@ -17,11 +17,15 @@ class BVH:
     def __init__(self, path):
         text = Path(path).read_text(encoding='utf-8-sig')
         self.header, motion = text.split('MOTION', 1)
-        self.frame_count = int(re.search('Frames:\\s*(\\d+)', motion)[1])
-        mt = re.search('Frame Time:\\s*([\\d.]+)', motion)
-        self.dt = float(mt[1])
-        self.dt_text = mt[1]
-        self.data = np.fromstring(motion[mt.end():], sep=' ').reshape(self.frame_count, -1)
+        mt = re.fullmatch(r'\s*Frames:\s*(\d+)\s*Frame Time:\s*([^\s]+)\s*(.*)', motion, re.S)
+        if not mt:
+            raise ValueError('Invalid BVH motion header.')
+        self.frame_count = int(mt[1])
+        self.dt = float(mt[2])
+        self.dt_text = mt[2]
+        if self.frame_count < 1 or not np.isfinite(self.dt) or self.dt <= 0:
+            raise ValueError('Invalid BVH frame count or frame time.')
+        self.data = np.array(mt[3].split(), dtype=float).reshape(self.frame_count, -1)
         self.joints = []
         stack = []
         pending = None

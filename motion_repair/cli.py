@@ -21,7 +21,7 @@ def write_json(path, value):
     Path(path).write_text(json.dumps(value, indent=2, allow_nan=False), encoding='utf-8')
 
 def validate(b):
-    if not np.isfinite(b.dt) or abs(1 / b.dt - 120) > .02:
+    if not np.isfinite(b.dt) or b.dt <= 0 or abs(1 / b.dt - 120) > .02:
         raise ValueError('Only approximately 120 fps is supported; no automatic resampling.')
     if b.frame_count < 120:
         raise ValueError('At least 120 frames are required.')

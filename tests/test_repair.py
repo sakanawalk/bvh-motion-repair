@@ -65,4 +65,21 @@ class RepairTests(unittest.TestCase):
             p=self.root/'bad.json';p.write_text(json.dumps(value))
             with self.assertRaises(ValueError):load_config(p,480)
 
+    def test_scientific_frame_time_preserved(self):
+        text=self.source.read_text().replace('0.008333333333333333','8.333333333333333e-3')
+        self.source.write_text(text)
+        result=run(self.source,self.root/'scientific',PROFILE)
+        self.assertEqual(BVH(result/'repaired.bvh').dt_text,'8.333333333333333e-3')
+
+    def test_invalid_times_and_trailing_text_rejected_before_output(self):
+        original=self.source.read_text()
+        for index,value in enumerate(['0','-0.008333333333333333','nan','inf']):
+            self.source.write_text(original.replace('0.008333333333333333',value))
+            output=self.root/f'invalid{index}'
+            with self.assertRaises(ValueError):run(self.source,output,PROFILE)
+            self.assertFalse(output.exists())
+        self.source.write_text(original+'\nNOT_A_NUMBER')
+        with self.assertRaises(ValueError):run(self.source,self.root/'trailing',PROFILE)
+        self.assertFalse((self.root/'trailing').exists())
+
 if __name__=='__main__':unittest.main()
