@@ -1,152 +1,150 @@
 {
-  "date": "2026-10-24",
-  "revision": "r3",
-  "license": "LicenseRef-sakanawalk-FreeUse-NoRedistribution",
+  "revision": "r5",
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 106,
-      "sha256": "97b29e8ffc196dce3b80babb4871af5c077b53e36cbbf3ea062a30b3ef3e6d17"
+      "sha256": "97b29e8ffc196dce3b80babb4871af5c077b53e36cbbf3ea062a30b3ef3e6d17",
+      "bytes": 106
     },
     {
       "path": "BUILD.txt",
-      "bytes": 653,
-      "sha256": "f3b4380bb3f609142f5b2904d4fef4f4ec1cbbc3366ead13eb3a2dd084e24156"
+      "sha256": "f3b4380bb3f609142f5b2904d4fef4f4ec1cbbc3366ead13eb3a2dd084e24156",
+      "bytes": 653
     },
     {
       "path": "docs/ALGORITHM.md",
-      "bytes": 2256,
-      "sha256": "c66f69c1b362f6196ea2991ab449a5a9749ab5ca657260a8d30beb9ae0908085"
+      "sha256": "c66f69c1b362f6196ea2991ab449a5a9749ab5ca657260a8d30beb9ae0908085",
+      "bytes": 2256
     },
     {
       "path": "docs/DESKTOP_LICENSE_AUDIT.md",
-      "bytes": 2519,
-      "sha256": "b58b1c297c58ed89c7c0e54b986d0ba6a3fc7331003e87bfd91b85440bbdda0b"
+      "sha256": "b58b1c297c58ed89c7c0e54b986d0ba6a3fc7331003e87bfd91b85440bbdda0b",
+      "bytes": 2519
     },
     {
       "path": "docs/LICENSE_AUDIT.md",
-      "bytes": 3217,
-      "sha256": "3f6db84000cc69aeab2a1429e0ef15ea40feff8b9ad3f7c9b12c7306a532b7a0"
+      "sha256": "2228affe7eabfcfeafe8b3372f15db126d2969d13381515192e352a2004d5e4f",
+      "bytes": 3223
     },
     {
       "path": "docs/PROFILE.md",
-      "bytes": 2269,
-      "sha256": "a752ca8e881fb4575fa175f03ee1ed6ea8cf8e6c0a721798b026319ee883f367"
+      "sha256": "a752ca8e881fb4575fa175f03ee1ed6ea8cf8e6c0a721798b026319ee883f367",
+      "bytes": 2269
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 1321,
-      "sha256": "4fc4a15967d8a7f50468219e1a401df7fbda995db15520ac4bf99700d8ac6ec7"
+      "sha256": "4fc4a15967d8a7f50468219e1a401df7fbda995db15520ac4bf99700d8ac6ec7",
+      "bytes": 1321
     },
     {
       "path": "examples/make_sample.py",
-      "bytes": 2512,
-      "sha256": "f6b2336e99d646dc0a5e26276dbd0849027ba7985bcd71879fba0c524981b1b8"
+      "sha256": "f6b2336e99d646dc0a5e26276dbd0849027ba7985bcd71879fba0c524981b1b8",
+      "bytes": 2512
     },
     {
       "path": "guide.html",
-      "bytes": 5517,
-      "sha256": "b9ff2e68ed54bbea866d5720cd072f1362833ee6ab7405fb41a273978735dec7"
+      "sha256": "afb67bcbb78c5db175ee1d0d2ff99bbb72a35648b8c7ff5f49849ded9b093844",
+      "bytes": 5511
     },
     {
       "path": "launch_desktop.py",
-      "bytes": 82,
-      "sha256": "07a1bcb30eb4dff1c4af5c76560efcac4ba317a67bf71a7903fcfae17e1b9094"
+      "sha256": "07a1bcb30eb4dff1c4af5c76560efcac4ba317a67bf71a7903fcfae17e1b9094",
+      "bytes": 82
     },
     {
       "path": "LICENSE",
-      "bytes": 3414,
-      "sha256": "19f49b47a77163d7afa7f1b2ecee0d531f98c059c1ed85560c3149879ce0985d"
+      "sha256": "425817f7170cd98277a5cd8010984f70a17020ca6981aadb8087e98e79e5678b",
+      "bytes": 3417
     },
     {
       "path": "LICENSE_CHANGE.txt",
-      "bytes": 311,
-      "sha256": "ee5a9bcd5c15435f8d97f1361d6c27d20a5f7e1ca3faf73e33798d9527f365c3"
+      "sha256": "c1a0cadcaa4746d930e4e060a0915e77e1bc299eb1019db3e56aae1a0ce3c932",
+      "bytes": 317
     },
     {
       "path": "licenses/NumPy.txt",
-      "bytes": 1573,
-      "sha256": "5b76d36901cc7891bae1ee728c777745e9e0e5d7cb61a13bf2d0596a06c7cf6d"
+      "sha256": "5b76d36901cc7891bae1ee728c777745e9e0e5d7cb61a13bf2d0596a06c7cf6d",
+      "bytes": 1573
     },
     {
       "path": "licenses/SciPy.txt",
-      "bytes": 1561,
-      "sha256": "442c6596bcfd6c1a9d9a5a8492a58a7d7cd8c78f3c8fcef92e6ff4a6ab51f2b8"
+      "sha256": "442c6596bcfd6c1a9d9a5a8492a58a7d7cd8c78f3c8fcef92e6ff4a6ab51f2b8",
+      "bytes": 1561
     },
     {
       "path": "motion_repair/__init__.py",
-      "bytes": 23,
-      "sha256": "d03eacad88bd7a33d49f0a635660e8241fa832e06a3d288fe742cf46833c1b42"
+      "sha256": "d03eacad88bd7a33d49f0a635660e8241fa832e06a3d288fe742cf46833c1b42",
+      "bytes": 23
     },
     {
       "path": "motion_repair/__main__.py",
-      "bytes": 49,
-      "sha256": "8134dc71036ab6fef7cb605ec59b400b2864890fc00526f9763c447e2937e295"
+      "sha256": "8134dc71036ab6fef7cb605ec59b400b2864890fc00526f9763c447e2937e295",
+      "bytes": 49
     },
     {
       "path": "motion_repair/cli.py",
-      "bytes": 8931,
-      "sha256": "892f77aebfb0650bdbfe0b925912b89059777262d84c4e5c9f607f861b549c86"
+      "sha256": "892f77aebfb0650bdbfe0b925912b89059777262d84c4e5c9f607f861b549c86",
+      "bytes": 8931
     },
     {
       "path": "motion_repair/desktop.py",
-      "bytes": 14221,
-      "sha256": "f5968179977256cf9a6f0fea4122f8b910a9905589895b0a98429f34c68b7fb5"
+      "sha256": "5dd001c28f8d556a31d138f411749e84102506262e308dd7e218c0a347bc048e",
+      "bytes": 14205
     },
     {
       "path": "motion_repair/engine.py",
-      "bytes": 33496,
-      "sha256": "760cf389e33f90b5aa50a166c70bab3bfd17dfb5b288b231283fa0a502a83fe3"
+      "sha256": "760cf389e33f90b5aa50a166c70bab3bfd17dfb5b288b231283fa0a502a83fe3",
+      "bytes": 33496
     },
     {
       "path": "motion_repair/preview.py",
-      "bytes": 4373,
-      "sha256": "73dd81efd574f5b7e73f677cd3faaa722bb44095101ed26502436ab23bf5566e"
+      "sha256": "73dd81efd574f5b7e73f677cd3faaa722bb44095101ed26502436ab23bf5566e",
+      "bytes": 4373
     },
     {
       "path": "motion_repair/profile.json",
-      "bytes": 212,
-      "sha256": "3d0f24ff6d9bed7a975ad8329fb779200e1e7d7eaa2ebf2a8d4cd991fde7cb30"
+      "sha256": "3d0f24ff6d9bed7a975ad8329fb779200e1e7d7eaa2ebf2a8d4cd991fde7cb30",
+      "bytes": 212
     },
     {
       "path": "pyproject.toml",
-      "bytes": 680,
-      "sha256": "875ffb4b44a2525cfcee5013c443a4c11e75507dc37ca277bea50e91aa387d74"
+      "sha256": "23d80d12acd1ccfde8973602e75e84a1f96f3cd82a2e25b973bb6fdcb5264b98",
+      "bytes": 692
     },
     {
       "path": "README.md",
-      "bytes": 2656,
-      "sha256": "89263a87ca92f5270abc853734a5482d2255036d75af9cf20d6059c525c5e430"
+      "sha256": "d0f046070d06a51695b23c913d748ff70b11f42da24019d561a7c637dc158d36",
+      "bytes": 2847
     },
     {
       "path": "RIGHTS_REVIEW.txt",
-      "bytes": 6348,
-      "sha256": "0c47776bd1d2d995240d0e6f271bafb521fd83aa515f40b8fbab0366ba8394fb"
+      "sha256": "355d07dd5d62676cae324ee94665f390dde0e5c4827d4fe62858d37e907656e2",
+      "bytes": 6354
     },
     {
       "path": "sample/sample.bvh",
-      "bytes": 394581,
-      "sha256": "8aea908e35b54f8cdc6843fa3aed37c61669749363d1dfbdaefb6a21eb9c7c33"
+      "sha256": "8aea908e35b54f8cdc6843fa3aed37c61669749363d1dfbdaefb6a21eb9c7c33",
+      "bytes": 394581
     },
     {
       "path": "tests/test_repair.py",
-      "bytes": 3651,
-      "sha256": "8f8b935b5524a6d0426b3b7c554a747bef440bc8f5f01bc32c8ab33f147c212d"
+      "sha256": "8f8b935b5524a6d0426b3b7c554a747bef440bc8f5f01bc32c8ab33f147c212d",
+      "bytes": 3651
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 682,
-      "sha256": "c9fb6203c6a9db4a1c8bfa8e07feee27ef0e9e007382474d490923b527a1f40f"
+      "sha256": "c9fb6203c6a9db4a1c8bfa8e07feee27ef0e9e007382474d490923b527a1f40f",
+      "bytes": 682
     },
     {
       "path": "利用条件.txt",
-      "bytes": 3414,
-      "sha256": "19f49b47a77163d7afa7f1b2ecee0d531f98c059c1ed85560c3149879ce0985d"
+      "sha256": "425817f7170cd98277a5cd8010984f70a17020ca6981aadb8087e98e79e5678b",
+      "bytes": 3417
     },
     {
       "path": "対応プロファイル.txt",
-      "bytes": 2269,
-      "sha256": "a752ca8e881fb4575fa175f03ee1ed6ea8cf8e6c0a721798b026319ee883f367"
+      "sha256": "a752ca8e881fb4575fa175f03ee1ed6ea8cf8e6c0a721798b026319ee883f367",
+      "bytes": 2269
     }
   ]
 }
